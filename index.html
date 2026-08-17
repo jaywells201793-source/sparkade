@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sparkade - Online Arcade</title>
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #07111f;
+
+  color: white;
+
+}
+
+header {
+
+  padding: 20px;
+
+  background: #101d30;
+
+  text-align: center;
+
+}
+
+.logo {
+
+  font-size: 30px;
+
+  font-weight: bold;
+
+}
+
+.logo span {
+
+  color: #66a3ff;
+
+}
+
+.hero {
+
+  text-align: center;
+
+  padding: 70px 20px;
+
+  background: linear-gradient(135deg, #102b4a, #11152b);
+
+}
+
+.hero h1 {
+
+  font-size: 48px;
+
+  margin-bottom: 15px;
+
+}
+
+.hero p {
+
+  color: #b7c5d8;
+
+  font-size: 19px;
+
+}
+
+.button {
+
+  display: inline-block;
+
+  margin-top: 20px;
+
+  padding: 14px 25px;
+
+  border-radius: 12px;
+
+  background: #5b8cff;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+section {
+
+  width: 92%;
+
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 55px 0;
+
+}
+
+h2 {
+
+  font-size: 32px;
+
+}
+
+.games {
+
+  display: grid;
+
+  grid-template-columns:
+
+  repeat(auto-fit, minmax(230px, 1fr));
+
+  gap: 20px;
+
+}
+
+.card {
+
+  background: #101d30;
+
+  border: 1px solid #29415f;
+
+  border-radius: 18px;
+
+  padding: 20px;
+
+}
+
+.game-icon {
+
+  height: 140px;
+
+  border-radius: 14px;
+
+  background: #162944;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 60px;
+
+}
+
+.card p {
+
+  color: #9fb0c5;
+
+}
+
+.price {
+
+  font-size: 45px;
+
+  font-weight: bold;
+
+  margin: 20px;
+
+}
+
+.pricing {
+
+  text-align: center;
+
+  background: #101d30;
+
+  border-radius: 20px;
+
+  padding: 35px;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 40px;
+
+  color: #718198;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">
+
+    🎮 Spark<span>ade</span>
+
+  </div>
+
+</header>
+
+<section class="hero">
+
+  <h1>Play. Compete. Come Back Tomorrow.</h1>
+
+  <p>
+
+    Welcome to Sparkade — a growing family-friendly
+
+    online arcade with fun games for everyone.
+
+  </p>
+
+  <a class="button" href="#games">
+
+    Explore Games
+
+  </a>
+
+</section>
+
+<section id="games">
+
+  <h2>🎮 Our Games</h2>
+
+  <div class="games">
+
+    <div class="card">
+
+      <div class="game-icon">
+
+        🚀
+
+      </div>
+
+      <h3>Space Runner</h3>
+
+      <p>
+
+        Dodge asteroids, collect stars,
+
+        and beat your high score.
+
+      </p>
+
+      <a class="button" href="#">
+
+        Play Free
+
+      </a>
+
+    </div>
+
+    <div class="card">
+
+      <div class="game-icon">
+
+        🧩
+
+      </div>
+
+      <h3>Puzzle Blocks</h3>
+
+      <p>
+
+        Match blocks and solve challenging puzzles.
+
+      </p>
+
+      <a class="button" href="#membership">
+
+        Coming Soon
+
+      </a>
+
+    </div>
+
+    <div class="card">
+
+      <div class="game-icon">
+
+        🏎️
+
+      </div>
+
+      <h3>Turbo Racer</h3>
+
+      <p>
+
+        Race against the clock and chase high scores.
+
+      </p>
+
+      <a class="button" href="#membership">
+
+        Coming Soon
+
+      </a>
+
+    </div>
+
+    <div class="card">
+
+      <div class="game-icon">
+
+        🧠
+
+      </div>
+
+      <h3>Memory Master</h3>
+
+      <p>
+
+        Test your memory and clear the board.
+
+      </p>
+
+      <a class="button" href="#membership">
+
+        Coming Soon
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="membership">
+
+  <div class="pricing">
+
+    <h2>⭐ Sparkade Membership</h2>
+
+    <p>
+
+      Get access to the growing Sparkade game library.
+
+    </p>
+
+    <div class="price">
+
+      $4.99
+
+      <small>/ month</small>
+
+    </div>
+
+    <p>
+
+      New games • Achievements • High scores
+
+    </p>
+
+    <a class="button" href="#">
+
+      Join Sparkade
+
+    </a>
+
+  </div>
+
+</section>
+
+<footer>
+
+  © 2026 Sparkade
+
+</footer>
+
+</body>
+
+</html>
